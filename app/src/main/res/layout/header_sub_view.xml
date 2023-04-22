@@ -12,8 +12,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -44,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/tui_avatar" />
         </LinearLayout>
+
     </LinearLayout>
 
 </merge>

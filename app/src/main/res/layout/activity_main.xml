@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.tinkoffcup.custom.ButtonView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="bottom"
+        android:text="Button 3"
+        android:textColor="#428BF9" />
+
+    <com.example.tinkoffcup.custom.HeaderView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerColor="#333333"
+        app:headerText="Header"
+        android:layout_marginTop="32dp"
+        app:subHeaderColor="#9299A2"
+        app:subHeaderText="SubHeader" />
+
+</LinearLayout>
